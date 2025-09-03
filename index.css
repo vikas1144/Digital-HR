@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Make calendar tiles visibly colored on dark background */
+.react-calendar__tile.att-present {
+  background: #16a34a !important; /* green-600 */
+  color: white !important;
+  border-radius: 6px !important;
+}
+
+.react-calendar__tile.att-absent {
+  background: #ef4444 !important; /* red-500 */
+  color: white !important;
+  border-radius: 6px !important;
+}
+
+/* Filter with cross-browser support */
+.my-filter {
+  filter: blur(5px);              /* modern browsers */
+  -webkit-filter: blur(5px);      /* old Safari */
+}
+
+/* Text size adjust */
+body {
+  text-size-adjust: 100%;         /* Chrome 54+, Edge, Firefox */
+  -webkit-text-size-adjust: 100%; /* Safari, iOS */
+}
+
+/* Backdrop filter */
+.my-blur-box {
+  backdrop-filter: blur(10px);            /* modern */
+  -webkit-backdrop-filter: blur(10px);    /* Safari */
+}
+
+/* User select */
+.no-select {
+  user-select: none;              /* modern */
+  -webkit-user-select: none;      /* Safari */
+  -ms-user-select: none;          /* old IE */
+}
+
+/* Forced color adjust (optional, ignore if not supported) */
+.force-adjust {
+  forced-color-adjust: none; /* Chrome/Edge only */
+}
