@@ -81,13 +81,13 @@ export default function Footer() {
           </p>
           <div className="mb-2 flex items-center gap-2 text-gray-300 hover:text-white">
             <Mail className="w-4 h-4 text-orange-500" />
-            <a href="mailto:vikaskashyap0762156@gmail.com">vikaskashyap0762156@gmail.com</a>
+            <a href="mailto:vikaskashyap0762156@gmail.com">xxxxxxxxxx@gmail.com</a>
           </div>
           <div className="mb-4 flex items-center gap-2 text-gray-300 hover:text-white">
             <Mail className="w-4 h-4 text-orange-500" />
-            <a href="mailto:usa@kezanconsulting.com">up@TalentMesh.com</a>
+            <a href="mailto:usa@kezanconsulting.com">xxxxxxxx.com</a>
           </div>
-          <p className="text-sm text-gray-300">+91 9997294005</p>
+          <p className="text-sm text-gray-300">+xx xxxxxxxxxx</p>
         </div>
       </div>
 
@@ -120,3 +120,4 @@ export default function Footer() {
     </footer>
   );
 }
+
