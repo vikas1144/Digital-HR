@@ -51,11 +51,11 @@ function Navbar() {
           <div className="hidden md:flex flex-col md:flex-row md:items-start space-y-2 md:space-y-0 md:space-x-4 text-sm">
             <div className="flex items-center space-x-2">
               <Mail className="text-orange-500" size={18} />
-              <span className="text-gray-300">vikaskashyap0762156@gmail.com</span>
+              <span className="text-gray-300">xxxxxxxxxxx@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <PhoneCall className="text-orange-500" size={18} />
-              <span className="text-gray-300">+91 9997294005</span>
+              <span className="text-gray-300">+xx xxxxxxxx</span>
             </div>
 
             {/* Social icons */}
